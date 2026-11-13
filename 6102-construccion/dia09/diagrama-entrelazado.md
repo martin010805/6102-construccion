@@ -1,0 +1,1 @@
+Entrelazado inseguro reproducible: A lee base; B lee base; A escribe model-A; B escribe model-B; ambas decisiones partieron de la misma versión y se pierde la actualización de A. unsafeConcurrentPromotion devuelve violated=true. La cola PromotionQueue serializa las operaciones como mensajes; test ejecuta 1.000 promociones concurrentes y verifica el último estado comprometido.

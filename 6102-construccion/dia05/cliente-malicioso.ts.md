@@ -1,0 +1,1 @@
+Invariante: ids únicos, métricas finitas no negativas, registros congelados y colección no expuesta. Función de abstracción: mapa matemático id→ModelVersion. checkRep se ejecuta al construir cada nueva versión. Cliente malicioso intenta mutar el objeto devuelto por get/all y añadir duplicados; copias congeladas y validación impiden alterar el estado interno.

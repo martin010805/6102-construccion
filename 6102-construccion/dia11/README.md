@@ -1,0 +1,1 @@
+Integración: npm test compila TypeScript y ejecuta pruebas nativas de Node. El módulo reúne clasificación PSI, decisión de promoción, TAD, parser, concurrencia y patrones. El contraste se documenta en Informe_Contraste.pdf y CONTRASTE.md.

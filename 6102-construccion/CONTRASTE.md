@@ -1,0 +1,2 @@
+# Contraste Python / TypeScript
+El original usa Python dinámico y funciones de política acopladas a módulos. La reimplementación tipa entradas/salidas, hace validaciones explícitas y separa TAD, parser, concurrencia y estrategia. Referencias Python: monitoring/sre_alert_policy.py líneas 19-43; pipeline/run_pipeline.py líneas 9-23; serving/app.py líneas 41-63. Referencias TypeScript: src/domain.ts, src/rules.ts, src/concurrency.ts y src/patterns.ts. El PDF amplía las diez lecciones y sus decisiones.

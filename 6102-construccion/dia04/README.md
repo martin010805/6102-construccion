@@ -1,0 +1,1 @@
+TAD RegistroDeModelos: add (productora), get/all (observadoras), promote (productora inmutable). Se descartó delete porque el historial de modelos debe conservarse. ArrayRegistry y MapRegistry comparten ModelRegistry y la misma suite. Independencia de representación comprobada en tests/core.test.mjs.

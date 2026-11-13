@@ -1,0 +1,3 @@
+{ "name":"6102-construccion", "version":"1.0.0", "private":true,
+  "scripts":{"build":"tsc -p tsconfig.json", "test":"npm run build && node --test tests/*.test.mjs"},
+  "devDependencies":{"typescript":"^5.8.3"} }
